@@ -4,7 +4,7 @@ document.getElementById('whatsappForm').addEventListener('submit', function(e) {
 
         // استخراج القيم التي كتبها العميل من الحقول
         let name = document.getElementById('clientName').value;
-        let contact = document.getElementById('clientContact').value;
+        let contact = document.getElementById('projectType').value;
         let message = document.getElementById('clientMessage').value;
 
         let whatsappNumber = "05376472395"; 
@@ -46,3 +46,5 @@ document.getElementById('whatsappForm').addEventListener('submit', function(e) {
             modal.style.display = "none";
         }
     }
+
+    
